@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=0.1">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <style>
+        /*{
+            outline: 1px solid red;
+        }*/
+        .container, body, .navbar, .navbar-inverse {
+            min-width: 1103px ;
+            /*width: 1030px !important;*/
+            
+        }  
+
+        .navbar-brand > img {
+            height: 40px;
+        }
+
+        .navbar-brand {
+            padding: 4px;
+        }  
+    
+    </style>
+</head>
+<body>
+   <div class="container">
+        <nav class="navbar navbar-inverse"> 
+          <div class="row container-fluid">
+
+            <div class="col-sm-1 navbar-header">
+              <a class="navbar-brand" href="#"><img src="../../resource/img/logo.PNG" alt=""></a>
+            </div>
+
+            <ul class="col-sm-4 nav navbar-nav">
+              <li class="active"><a href="#">HOME</a></li>
+              <li><a href="#">SERIES</a></li>
+              <li><a href="#">PELICULAS</a></li>
+              <li><a href="#">INFANTIL</a></li>
+            </ul>
+
+            <div class="col-sm-2"></div>
+
+            <div class="col-sm-5">
+                <form class="navbar-form navbar-left" action="/action_page.php">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                  </div>
+                  <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+
+                <ul class=" nav navbar-nav navbar-right ">
+                  <li><a href="#"><span class="glyphicon glyphicon-user"></span>Usuario</a></li>
+                </ul>
+            </div>
+            
+            
+
+          </div>
+        </nav>
+    </div>
+</body>
+</html>

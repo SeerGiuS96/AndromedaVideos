@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="video_container">
+        <video controls width=1000 preload="auto">
+            <!-- miniatura del multimedia poster=assets/poster.jpg 
+       generarlo automaticamente http://christianheilmann.com/2011/07/01/creating-screengrabs-from-html5-video-with-canvas/-->
+
+            <!-- para empezar el video en x minuto hay que poner video.formato#t=2 donde 2 es el segundo -->
+            <source src="http://nettuts.s3.amazonaws.com/763_sammyJSIntro/trailer_test.mp4" type="video/mp4">
+            <source src="http://nettuts.s3.amazonaws.com/763_sammyJSIntro/trailer_test.ogg" type="video/ogg">
+            <!-- CUANDO FALLA SE MUESTRA ESTO -->
+            Tu navegador no soporta HTML5
+        </video>
+    </div>
+</body>
+
+</html>
