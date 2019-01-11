@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Administrar Perfil</title>
+    <link rel="stylesheet" href="../css/grid_html_mf2.css">
+    <style>
+        div,h2, h3, ul,li,a,form, input{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+           
+        }
+        h2, h3 {
+            font-weight: 400;
+        }
+        h2 {
+            font-size: 2rem;
+            line-height: 1.2;
+        }
+        
+        h3 {
+            font-weight: 600!important;
+            color: #322f37!important;
+        }
+        
+        .subtitulo{
+            color: #6e6779!important;
+        }
+        
+        #fila1{
+            width: 402px;
+            height: 70px;
+            border: 1px solid black;
+        }
+        
+         #fila1 > #parte1{
+            width: 200px;
+            height: 70px;
+            float: left;
+             border: 1px solid black;
+        }
+         #fila1 > #parte2{
+            width: 200px;
+            height: 70px;
+            float: left;
+             border: 1px solid black;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div clas="container">
+        <div id="cabecera">
+            <h2>Configuracion</h2>
+            <ul>
+                <li><a href="">Perfil</a></li>
+            </ul>
+        </div>
+        <div id="configuracion">
+            <h3>Ajustes del perfil</h3>
+            <p class="subtitulo">Cambiar los datos de identificacion de tu cuenta</p>
+
+            <div id="fila1">
+                <div id="parte1">
+                    Correo electronico
+                </div>
+                <div id="parte2">
+                    <form method="post" action="tratamiento.php">
+                        <p>
+                            <!-- <label for="mail"></label> -->
+                            <input type="text" name="mail" id="mail" placeholder="Zozor" size="20" maxlength="10" />
+                        </p>
+                    </form>
+                </div>
+            </div>
+
+            <div id="fila2">
+                <div id="parte1">Cambiar contraseña</div>
+                <div id="parte2">
+                    <form method="post" action="tratamiento.php">
+                        <label for="mail">Contraseña actual</label>
+                        <input type="text" name="mail" id="mail" placeholder="Zozor" size="30" maxlength="10" /><br>
+                        <label for="mail">Nueva contraseña</label>
+                        <input type="text" name="mail" id="mail" placeholder="Zozor" size="30" maxlength="10" /><br>
+                        <label for="mail">Confirmar contraseña</label>
+                        <input type="text" name="mail" id="mail" placeholder="Zozor" size="30" maxlength="10" /><br>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
