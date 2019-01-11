@@ -1,0 +1,59 @@
+errores
+
+error: fallo el push de algunas referencias a 'https://github.com/tururux/AndromedaVideos.git'
+ayuda: Actualizaciones fueron rechazadas porque la punta de tu rama actual esta
+ayuda: detrás de su contraparte remota. Integra los cambios remotos (es decir
+ayuda: 'git pull ...') antes de hacer push de nuevo.
+ayuda: Mira 'Note about fast-forwards' en 'git push --help' para mas detalles.
+
+para solucionarlo se ejecuta lo siguiente
+
+dwes@dwes-VirtualBox:/var/www/html/andromeda$ git pull --rebase https://github.com/tururux/AndromedaVideos.git
+
+
+aqui nos dice lo que tenemos que quitar para solucionarlo
+
+Desde https://github.com/tururux/AndromedaVideos
+ * branch            HEAD       -> FETCH_HEAD
+En primer lugar, rebobinando HEAD para después reproducir tus cambios encima de ésta...
+error: Los siguientes archivos sin seguimiento en el árbol de trabajo serán sobrescritos al actualizar el árbol de trabajo:
+	public/css/grid_html_mf2.css
+	public/html/home.html
+	public/html/homeBootstrap.html
+	public/html/reproductor.html
+	resources/img/logo.PNG
+Por favor, muévelos o elimínalos antes de intercambiar ramas.
+Abortando
+could not detach HEAD
+
+una vez eliminemos los archivos lo ejecutamos otra vez
+
+dwes@dwes-VirtualBox:/var/www/html/andromeda$ git pull --rebase https://github.com/tururux/AndromedaVideos.git
+Desde https://github.com/tururux/AndromedaVideos
+ * branch            HEAD       -> FETCH_HEAD
+En primer lugar, rebobinando HEAD para después reproducir tus cambios encima de ésta...
+Aplicando: he subido home.html, esta en desarrollo.
+
+ya esta ahora hacemos un push
+
+dwes@dwes-VirtualBox:/var/www/html/andromeda$ git push -u origin master
+Username for 'https://github.com': tururux
+Password for ******************
+Contando objetos: 21, listo.
+Delta compression using up to 2 threads.
+Comprimiendo objetos: 100% (21/21), listo.
+Escribiendo objetos: 100% (21/21), 392.06 KiB | 23.06 MiB/s, listo.
+Total 21 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/tururux/AndromedaVideos.git
+   548436f..cf13710  master -> master
+Rama 'master' configurada para hacer seguimiento a la rama remota 'master' de 'origin'.
+
+
+SOLUCIONADO!!!!!!!!!!!!!
+
+
+
+
+
+
