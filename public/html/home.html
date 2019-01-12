@@ -1,95 +1,471 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="../css/grid_html_mf2.css">
+    
+    <link rel="stylesheet" href="grid_html_mf2.css">
 </head>
     <style>
-        * {outline: 1px solid red;}
-        body {
-           
+
+      /*{outline: red solid 1px;} */
+
+        h2{
+            
+            color:white;
+            margin-left: 20px;
+            
         }
+        
+        div,header, nav, main, aside, footer, ul{
+          box-sizing: border-box;
+        	margin: 0;
+        	padding: 0;
+         }
+
+        .containe {
+
+        min-width: 900px;
+          background-repeat: no-repeat;
+          background-image: linear-gradient( #9C33FF , black 70%);
+        }
+
+      header{
+      min-width: 900px;
+      background-color: black;
+      height: 60px;
+
+
+      }
+
+
         .logo > a > img {
             height: 50px;
             width: 100px;
+            float:left;
         }
+
+        nav{
+          float:left;
+          margin-top: 20px;
+
+        }
+          nav ul{
+
+            list-style: none;
+
+
+          }
+            nav ul li{
+              float:left;
+              margin-right:5px;
+
+            }
+              nav ul li a{
+                text-decoration: none;
+
+                background-color: black;
+                color:white;
+                padding: 10px;
+                border-radius: 15px;
+                border:2px solid white;
+              }
+
+              #search{
+                float:right;
+                width: 200px;
+                margin-left: 3%;
+                margin-top: 20px;
+
+              }
+
+
+              #usuario{
+                  float:right;
+                  width: 90px;
+                  margin-top: 20px;
+                  margin-left: 3%;
+                   margin-right: 3%;
+                  box-sizing: border-box;
+                  display: block;
+                  }
+  #usuario a{
+
+  text-decoration: none;
+  color: white;
+  margin:5px 1px;
+    padding: 1px;
+
+  }
+
+  #usuario a img{
+
+      width: 25px;
+      height: 20px;
+      margin-right: 3%;
+      float: left;
+   
+  }
+
+        .row img{
+            
+            width: 100%;
+            
+        }
+        
+        
+      /* #div-1:hover, #div-2:hover,  #div-4:hover, #div-5:hover, #div-6:hover, #div-7:hover{
+            
+           transition-duration: 0.3s; 
+           transform: scale(1.3);
+        }
+*/
+                  main{clear: both;}
+        
+        
+        
+        
+        
+#div-1:hover{
+            
+           transition-duration: 0.4s; 
+           transform: scale(1.3);
+           background-image: url(portadas/l3c.gif);
+        	height: 100%;
+        	background-repeat: no-repeat;
+        	background-position: center;
+        }
+
+
+        #div-1{
+        	  transition-duration: 0.3s; 
+        	
+        	height: 100%;
+        	background-position: center;
+
+        }
+
+#div-1:hover > img{
+        	 visibility:hidden; 
+
+        }
+        
+        
+
+
+
+                
+        
+#div-2:hover{
+            
+           transition-duration: 0.4s; 
+           transform: scale(1.3);
+           background-image: url(portadas/l3c.gif);
+        	height: 100%;
+        	background-repeat: no-repeat;
+        	background-position: center;
+        }
+
+
+        #div-2{
+        	  transition-duration: 0.3s; 
+        	
+        	height: 100%;
+        	background-position: center;
+
+        }
+
+#div-2:hover > img{
+        	 visibility:hidden; 
+
+        }
+        
+        
+        
+
+#div-3:hover{
+            
+           transition-duration: 0.4s; 
+           transform: scale(1.3);
+           background-image: url(portadas/l3c.gif);
+        	height: 100%;
+        	background-repeat: no-repeat;
+        	background-position: center;
+        }
+
+
+        #div-3{
+        	  transition-duration: 0.3s; 
+        	
+        	height: 100%;
+        	background-position: center;
+
+        }
+
+#div-3:hover > img{
+        	 visibility:hidden; 
+
+        }
+
+
+    
+        
+#div-4:hover{
+            
+           transition-duration: 0.4s; 
+           transform: scale(1.3);
+           background-image: url(portadas/l3c.gif);
+        	height: 100%;
+        	background-repeat: no-repeat;
+        	background-position: center;
+        }
+
+
+        #div-4{
+        	  transition-duration: 0.3s; 
+        	
+        	height: 100%;
+        	background-position: center;
+
+        }
+
+#div-4:hover > img{
+        	 visibility:hidden; 
+
+        }
+
+        
+#div-5:hover{
+            
+           transition-duration: 0.4s; 
+           transform: scale(1.3);
+           background-image: url(portadas/l3c.gif);
+        	height: 100%;
+        	background-repeat: no-repeat;
+        	background-position: center;
+        }
+
+
+        #div-5{
+        	  transition-duration: 0.3s; 
+        	
+        	height: 100%;
+        	background-position: center;
+
+        }
+
+#div-5:hover > img{
+        	 visibility:hidden; 
+
+        }
+
+        
+        
+#div-6:hover{
+            
+           transition-duration: 0.4s; 
+           transform: scale(1.3);
+           background-image: url(portadas/l3c.gif);
+        	height: 100%;
+        	background-repeat: no-repeat;
+        	background-position: center;
+        }
+
+
+        #div-6{
+        	  transition-duration: 0.3s; 
+        	
+        	height: 100%;
+        	background-position: center;
+
+        }
+
+#div-6:hover > img{
+        	 visibility:hidden; 
+
+        }
+
+        
+        
+        
+ /*       
+#div-3 img {
+
+	height: 253px;
+}
+*/
+
+
+
+/*
+.menuButton {
+  position: relative;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  -webkit-transition-property: background-color, color;
+  -webkit-transition-duration: 1s;
+  -o-transition-property: background-color, color;
+  -o-transition-duration: 1s;
+  text-align: left;
+  background-color: grey;
+  left: 5px;
+  top: 5px;
+  height: 26px;
+  color: white;
+  border-color: black;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  -moz-box-shadow: 2px 2px 1px black;
+  padding: 2px 4px;
+  border: solid 1px black;
+}
+
+.menuButton:hover {
+  position: relative;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  -webkit-transition-property: background-color, color;
+  -webkit-transition-duration: 1s;
+  -o-transition-property: background-color, color;
+  -o-transition-duration: 1s;
+  background-color:white;
+  color:black;
+  -moz-box-shadow: 2px 2px 1px black;
+}
+<img src="portadas/L3C.jpg" alt="">
+*/
+
+
+
+
+
     </style>
 <body>
-    <div class="container">
-       
-        <header class="row">
-           
+    <div class="containe">
+
+        <header class="">
+
             <div class="logo">
-                <a  href="#"><img src="../../resource/img/logo.PNG" alt=""></a>
+                <a  href="#"><img src="logo.PNG" alt=""></a>
             </div>
             <nav>
                  <ul>
                   <li ref="#"><a href="">HOME</a></li>
-                  <li><a href="#">SERIES</a></li>
                   <li><a href="#">PELICULAS</a></li>
+                  <li><a href="#">SERIES</a></li>
                   <li><a href="#">INFANTIL</a></li>
                 </ul>
             </nav>
-                <div>
+
+            <div id="usuario">
+              <a href="#"><img src="images.png" alt="user">Usuario</a>
+            </div>
+                <div id="search">
                     <form action="/action_page.php">
-                      <div>
+
                         <input type="text"  placeholder="Buscar">
-                      </div>
+
                       <button type="submit">Enviar</button>
                     </form>
-
-                    <ul>
-                      <li><a href="#"><span class="glyphicon glyphicon-user"></span>Usuario</a></li>
-                    </ul>
                 </div>
-                
+
+
+
         </header>
         <main>
-            <div class="data1">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+           <h2>Estrenos</h2>
+            <div class="row">
+                <div id="div-1" class="col-2"><img src="portadas/Archivo_comprimido/c4785.jpg" alt=""></div>
+                <div  id="div-2"class="col-2"><img src="portadas/Archivo_comprimido/c5532.jpg" alt=""></div>
+                <div id="div-3" class="col-2">
+                	<img src="portadas/f.jpg" alt="">
+
+                </div>
+                <div id="div-4" class="col-2"><img src="portadas/Archivo_comprimido/c6026.jpg" alt=""></div>
+                <div id="div-5" class="col-2"><img src="portadas/Archivo_comprimido/c6320.jpg" alt=""></div>
+                <div id="div-6" class="col-2"><img src="portadas/c5055.jpg" alt=""></div>
             </div>
-            <div class="data1">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+            <h2>Lo mas visto</h2>
+            <div class="row">
+                <div id="div-1" class="col-2"><img src="portadas/Archivo_comprimido/c4785.jpg" alt=""></div>
+                <div  id="div-2"class="col-2"><img src="portadas/Archivo_comprimido/c5532.jpg" alt=""></div>
+                <div id="div-3" class="col-2">
+                	<img src="portadas/f.jpg" alt="">
+
+                </div>
+                <div id="div-4" class="col-2"><img src="portadas/Archivo_comprimido/c6026.jpg" alt=""></div>
+                <div id="div-5" class="col-2"><img src="portadas/Archivo_comprimido/c6320.jpg" alt=""></div>
+                <div id="div-6" class="col-2"><img src="portadas/c5055.jpg" alt=""></div>
             </div>
-            <div class="data1">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+            <h2>Terror</h2>
+            <div class="row">
+                <div id="div-1" class="col-2"><img src="portadas/Archivo_comprimido/c4785.jpg" alt=""></div>
+                <div  id="div-2"class="col-2"><img src="portadas/Archivo_comprimido/c5532.jpg" alt=""></div>
+                <div id="div-3" class="col-2">
+                	<img src="portadas/f.jpg" alt="">
+
+                </div>
+                <div id="div-4" class="col-2"><img src="portadas/Archivo_comprimido/c6026.jpg" alt=""></div>
+                <div id="div-5" class="col-2"><img src="portadas/Archivo_comprimido/c6320.jpg" alt=""></div>
+                <div id="div-6" class="col-2"><img src="portadas/c5055.jpg" alt=""></div>
             </div>
-            <div class="data1">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+            
+            <!-- 
+            <h2>Comedias</h2>
+            <div class="row">
+                <div class="col-2"><img src="portadas/Archivo_comprimido/c4785.jpg" alt=""></div>
+                <div class="col-2"><img src="portadas/Archivo_comprimido/c5532.jpg" alt=""></div>
+                <div class="col-2"><img src="portadas/Archivo_comprimido/c5908.jpg" alt=""></div>
+                <div class="col-2"><img src="portadas/Archivo_comprimido/c6026.jpg" alt=""></div>
+                <div class="col-2"><img src="portadas/Archivo_comprimido/c6320.jpg" alt=""></div>
+                <div class="col-2"><img src="portadas/c5055.jpg" alt=""></div>
             </div>
-            <div class="data1">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+            <h2>Aventura</h2>
+            <div class="row">
+                <div class="col-2"><img src="portadas/Archivo_comprimido/c4785.jpg" alt=""></div>
+                <div class="col-2"><img src="portadas/Archivo_comprimido/c5532.jpg" alt=""></div>
+                <div class="col-2"><img src="portadas/Archivo_comprimido/c5908.jpg" alt=""></div>
+                <div class="col-2"><img src="portadas/Archivo_comprimido/c6026.jpg" alt=""></div>
+                <div class="col-2"><img src="portadas/Archivo_comprimido/c6320.jpg" alt=""></div>
+                <div class="col-2"><img src="portadas/c5055.jpg" alt=""></div>
             </div>
-            <div class="data1">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
+            <h2>thriler</h2>
+            <div class="row">
+                <div class="col-2"><img src="portadas/Archivo_comprimido/c4785.jpg" alt=""></div>
+                <div class="col-2"><img src="portadas/Archivo_comprimido/c5532.jpg" alt=""></div>
+                <div class="col-2"><img src="portadas/Archivo_comprimido/c5908.jpg" alt=""></div>
+                <div class="col-2"><img src="portadas/Archivo_comprimido/c6026.jpg" alt=""></div>
+                <div class="col-2"><img src="portadas/Archivo_comprimido/c6320.jpg" alt=""></div>
+                <div class="col-2"><img src="portadas/c5055.jpg" alt=""></div>
+            </div>-->
         </main>
         <footer>
+
+<!-- 
+<div class="sidebar">
+  <p><a class="menuButton" href="home">Inicio</a></p>
+  <p><a class="menuButton" href="about">Acerca de</a></p>
+  <p><a class="menuButton" href="contact">Contacto Us</a></p>
+  <p><a class="menuButton" href="links">Vínculos</a></p>
+</div>
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
             <div>
                 <span></span>
                 <span></span>
