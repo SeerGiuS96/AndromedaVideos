@@ -3,9 +3,11 @@ body{
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: black;
-  /*background: url(../../resources/imagenes/bg.jpg) no-repeat;*/
+  /*background-color: black;*/
+  background: url(../../resources/imagenes/bgC.jpg);
+  /*background: url(../../resources/imagenes/bgB.jpg); Esta esta DPM*/
   background-size: cover;
+  /*background-position: 0px -500px;*/
 }
 .login-box{
   width: 280px;
