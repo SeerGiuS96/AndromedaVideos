@@ -10,11 +10,16 @@ body{
   /*background-position: 0px -500px;*/
 }
 .login-box{
+  width: 300px;
+    height: 434px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
   color: white;
+  background-color: rgba(44, 44, 44, 0.5);
+  border-radius: 20px;
+  border: 0.5px solid black;
 }
 .login-box h1{
   float: left;
@@ -29,6 +34,7 @@ body{
   border-bottom: 6px solid  #6c3483 ;
   margin-bottom: 50px;
   padding: 13px 0;
+    margin-left: 10px;
 }
 .login-box img{
   width: 135px;
@@ -92,4 +98,9 @@ body{
 .olvidado a{
   text-align: center;
   text-decoration: none;
+}
+
+.campos {
+    width: 250px;
+    margin: auto;
 }
