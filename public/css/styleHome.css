@@ -118,20 +118,25 @@ main {
     clear: both;
 }
 
+[id^="div-"]:hover {  /* Lo mismo que poner [id|="div"]:hover */
 
     transition-duration: 0.4s;
+    transform: scale(1);
+    background-image: url(https://media0.giphy.com/media/26tPrcX6EfSj5N0HK/giphy.gif?cid=3640f6095c3ba5e34e66696849446028);
     height: 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 
+[id^="div-"] {
     transition-duration: 0.3s;
     height: 100%;
     background-position: center;
 
 }
 
+[id|="div"]:hover > img {
     visibility: hidden;
 }
 
@@ -184,3 +189,47 @@ main {
 }
 <img src="portadas/L3C.jpg" alt="">
 */
+
+
+[id^="contentPreview"]{
+    height: 350px;
+    width: 100%;
+    border: 5px solid red;
+    display: none;
+}
+
+#div-1:hover ~ #contentPreview1 {
+    clear: both;
+    display: block;
+    border: 2px solid orange;
+}
+
+#div-2:hover ~ #contentPreview2 {
+    clear: both;
+    display: block;
+    border: 2px solid orange;
+}
+
+#div-3:hover ~ #contentPreview3 {
+    clear: both;
+    display: block;
+    border: 2px solid orange;
+}
+
+#div-4:hover ~ #contentPreview4 {
+    clear: both;
+    display: block;
+    border: 2px solid orange;
+}
+
+#div-5:hover ~ #contentPreview5 {
+    clear: both;
+    display: block;
+    border: 2px solid orange;
+}
+
+#div-6:hover ~ #contentPreview6 {
+    clear: both;
+    display: block;
+    border: 2px solid orange;
+}
