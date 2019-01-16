@@ -1,0 +1,74 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+main{
+  background-image: url(../../resources/imagenes/bgC.jpg);
+  /*background: url(../../resources/imagenes/bgB.jpg); Esta esta DPM*/
+  background-size: cover;
+  padding: 5% 0 5% 20%;
+}
+.login-box{
+  width: 80%;
+  color: white;
+  background-color: rgba(44, 44, 44, 0.5);
+  border-radius: 20px;
+  border: 2px solid #6c3483;
+}
+
+.login-box > h2{
+  float: left;
+  margin: 2% 15% 1% 5%;
+  border-bottom: 4px solid  #6c3483 ;
+  padding: 10px 0 0 0;
+}
+.login-box img{
+  width: 135px;
+  height: 60px;
+  margin-top: 30px;
+  float: right;
+}
+.campos{
+  width: 50%;
+  margin-left: 5%;
+}
+.campos > form:nth-of-type(1) > h2{
+  width: 39%;
+  border-bottom: 2px solid  #6c3483 ;
+}
+.campos > form:nth-of-type(2) > h2{
+  width: 50%;
+  border-bottom: 2px solid  #6c3483 ;
+}
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin-left: 33%;
+  background-color: rgba(44, 44, 44, 0.2);
+}
+.textbox i{
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+.textbox input:nth-of-type(1){
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+  border-bottom: 1px solid  #6c3483 ;
+}
+.textbox input:nth-of-type(2){
+  width: 22%;
+  background: none;
+  border: 2px solid #6c3483;
+  color: white;
+  padding: 5px;
+  font-size: 0.9em;
+  margin: 2% 0 3% 77%;
+  border-radius: 11px;
+}
+
