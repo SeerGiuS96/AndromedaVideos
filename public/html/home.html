@@ -6,6 +6,7 @@
     <title>Home</title>
     <link rel="stylesheet" href="../css/grid_html_mf2.css">
     <link rel="stylesheet" href="../css/styleHome.css">
+    
 </head>
 
 <body>
@@ -143,29 +144,29 @@
             
             /*IFRAME-1*/
                 document.getElementById("div-1R1").addEventListener("click", function(){
-                debugger;
-                document.getElementById("iframe-1R1").style.display="block";
-                
-
-              var elem = document.getElementById("iframe-1R1");  
-              var elem1 = document.getElementById("iframe-1R1");
-              var pos = 0;
-              var pos1 = 0;
-              var id = setInterval(frame, -120);
-              function frame() {
-
-                  if (pos1 == 100 ) {
-                  clearInterval(id);
-
-                } else {
-                  pos++; 
-                    pos1++;
+                        debugger;
+                        document.getElementById("iframe-1R1").style.display="block";
 
 
-                  elem1.style.width = pos+"%";
-                     elem.style.height = pos1+"%";
-                }
-              }
+                          var elem = document.getElementById("iframe-1R1");  
+                          var elem1 = document.getElementById("iframe-1R1");
+                          var pos = 0;
+                          var pos1 = 0;
+                          var id = setInterval(frame, -120);
+                          function frame() {
+
+                                  if (pos1 == 100 ) {
+                                  clearInterval(id);
+
+                                } else {
+                                  pos++; 
+                                    pos1++;
+
+
+                                  elem1.style.width = pos+"%";
+                                     elem.style.height = pos1+"%";
+                                }
+                      }
           
            });
             
@@ -687,8 +688,8 @@
                 <div id="div-1" class="col-2"><img src="../../resources/imagenes/portadas/c4785.jpg" alt="">
                 
                 
-                 <input id="div-1R3" type="checkbox">
-                 <label for="div-1R3"><img id="img-1" src="../../resources/imagenes/icono-flehca-abajo.png" alt=""></label> 
+                 <a href="#" id="div-1R3" >
+                 <img id="img-1" src="../../resources/imagenes/icono-flehca-abajo.png" alt=""></a> 
                 
                 </div>
                 
@@ -782,7 +783,10 @@
             <script>
             
             /*IFRAME-1*/
-                document.getElementById("div-1R3").addEventListener("click", function(){
+                document.getElementById("div-1R3").addEventListener("click", function(e){
+                    
+                    e.preventDefault();
+                    
                 debugger;
                 document.getElementById("iframe-1R3").style.display="block";
                 
@@ -936,7 +940,7 @@
               var elem1 = document.getElementById("iframe-5R3");
               var pos = 0;
               var pos1 = 0;
-              var id = setInterval(frame, -120);
+              var id = setInterval(frame, 120);
               function frame() {
 
                   if (pos1 == 100 ) {
@@ -1029,22 +1033,15 @@
                 <div class="col-2"><img src="portadas/c5055.jpg" alt=""></div>
             </div>-->
         </main>
-        <footer>
+        <!--<footer>
 
-            <!-- 
+            
 <div class="sidebar">
   <p><a class="menuButton" href="home">Inicio</a></p>
   <p><a class="menuButton" href="about">Acerca de</a></p>
   <p><a class="menuButton" href="contact">Contacto Us</a></p>
   <p><a class="menuButton" href="links">Vínculos</a></p>
 </div>
-
--->
-
-
-
-
-
 
 
 
@@ -1065,6 +1062,7 @@
                 </ol>
             </div>
         </footer>
+        -->
     </div>
 </body>
 
