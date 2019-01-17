@@ -14,7 +14,7 @@ div,header,nav,main,aside,footer,ul {
 }
 
 .containe {
-
+  
     min-width: 900px;
     background-repeat: no-repeat;
     background-image: linear-gradient(#9C33FF, black 70%);
@@ -116,16 +116,19 @@ nav ul li a {
 */
 main {
     clear: both;
+    margin: 0 5%;
 }
 
 [id^="div-"]:hover {  /* Lo mismo que poner [id|="div"]:hover */
 
     transition-duration: 0.4s;
-    transform: scale(1);
-    background-image: url(https://media0.giphy.com/media/26tPrcX6EfSj5N0HK/giphy.gif?cid=3640f6095c3ba5e34e66696849446028);
+    transform: scale(1.1);
     height: 100%;
     background-repeat: no-repeat;
     background-position: center;
+    background-size:cover;
+  
+    
 }
 
 
@@ -133,12 +136,86 @@ main {
     transition-duration: 0.3s;
     height: 100%;
     background-position: center;
-
+    
 }
 
 [id|="div"]:hover > img {
     visibility: hidden;
 }
+
+
+#div-1:hover {  /* Para lso gif */
+
+     background-image: url(https://media0.giphy.com/media/26tPrcX6EfSj5N0HK/giphy.gif?cid=3640f6095c3ba5e34e66696849446028);
+
+    
+}
+#div-2:hover {  /* Para lso gif */
+
+     background-image: url(https://media0.giphy.com/media/26tPrcX6EfSj5N0HK/giphy.gif?cid=3640f6095c3ba5e34e66696849446028);
+
+    
+}
+#div-3:hover {  /* Para lso gif */
+
+     background-image: url(https://media0.giphy.com/media/26tPrcX6EfSj5N0HK/giphy.gif?cid=3640f6095c3ba5e34e66696849446028);
+
+    
+}
+#div-4:hover {  /* Para lso gif */
+
+     background-image: url(https://media0.giphy.com/media/26tPrcX6EfSj5N0HK/giphy.gif?cid=3640f6095c3ba5e34e66696849446028);
+
+    
+}
+#div-5:hover {  /* Para lso gif */
+
+     background-image: url(https://media0.giphy.com/media/26tPrcX6EfSj5N0HK/giphy.gif?cid=3640f6095c3ba5e34e66696849446028);
+
+    
+}
+#div-6:hover {  /* Para lso gif */
+
+     background-image: url(https://media0.giphy.com/media/26tPrcX6EfSj5N0HK/giphy.gif?cid=3640f6095c3ba5e34e66696849446028);
+
+    
+}
+
+
+/*FLECHAS INPUT*/
+
+
+
+        
+   
+
+
+   #div-1 > img + input+ label, #div-2 > img + input+ label, #div-3 > img + input+ label, #div-4 > img + input+ label, #div-5 > img + input+ label, #div-6 > img + input+ label{
+        	 visibility:hidden; 
+            margin-left: 40%;
+             
+        }
+
+  #div-1:hover > img + input+ label, #div-2:hover > img + input+ label, #div-3:hover > img + input+ label, #div-4:hover > img + input+ label, #div-5:hover > img + input+ label, #div-6:hover > img + input+ label{
+        	 visibility:visible; 
+
+        }
+
+    input{
+        	 visibility:visible;
+             position: absolute;
+             top:-9999px;
+            margin-left: 30%;
+
+        }
+        
+   #img-1, #img-2,#img-3,#img-4,#img-5,#img-6 {
+            
+            width: 20%
+        }
+        
+
+
 
 /*       
 #div-3 img {
@@ -191,44 +268,44 @@ main {
 */
 
 
-[id^="contentPreview"]{
+[id^="iframe"]{
     height: 350px;
     width: 100%;
-    border: 5px solid red;
+   margin: 0 auto;
     display: none;
 }
 
-#div-1:hover ~ #contentPreview1 {
+#div-1:hover ~ #iframe1 {
     clear: both;
     display: block;
     border: 2px solid orange;
 }
 
-#div-2:hover ~ #contentPreview2 {
+#div-2:hover ~ #iframe2 {
     clear: both;
     display: block;
     border: 2px solid orange;
 }
 
-#div-3:hover ~ #contentPreview3 {
+#div-3:hover ~ #iframe3 {
     clear: both;
     display: block;
     border: 2px solid orange;
 }
 
-#div-4:hover ~ #contentPreview4 {
+#div-4:hover ~ #iframe4 {
     clear: both;
     display: block;
     border: 2px solid orange;
 }
 
-#div-5:hover ~ #contentPreview5 {
+#div-5:hover ~ #iframe5 {
     clear: both;
     display: block;
     border: 2px solid orange;
 }
 
-#div-6:hover ~ #contentPreview6 {
+#div-6:hover ~ #iframe6 {
     clear: both;
     display: block;
     border: 2px solid orange;
