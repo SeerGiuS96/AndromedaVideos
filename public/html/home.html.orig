@@ -6,13 +6,14 @@
     <title>Home</title>
     <link rel="stylesheet" href="../css/grid_html_mf2.css">
     <link rel="stylesheet" href="../css/styleHome.css">
+    <link rel="stylesheet" href="../css/sttyleHomeG.css">
 </head>
 
 <body>
     <div class="containe">
 
         <header class="">
-
+           
             <div class="logo">
                 <a href="#"><img src="../../resources/img/logo.PNG" alt=""></a>
             </div>
@@ -24,10 +25,10 @@
                     <li><a href="#">INFANTIL</a></li>
                 </ul>
             </nav>
-
             <div id="usuario">
                 <a href="#"><img src="../../resources/imagenes/icono-usuario.png" alt=""></a>
             </div>
+
             <div id="search">
                 <form action="/action_page.php">
 
@@ -35,13 +36,19 @@
 
                     <button type="submit"><!-- <img <img src="../../resources/imagenes/search.png" alt=""> --></button>
                 </form>
+
             </div>
+            
+
+
+
 
 
 
         </header>
         <main>
             <h2>Estrenos</h2>
+<<<<<<< HEAD
             <div id="con" class="row">
                
                 <div id="div-1" class="col-2"><img src="../../resources/imagenes/portadas/c4785.jpg" alt="">
@@ -85,6 +92,68 @@
                  <input id="div-5R1" type="checkbox">
                 <label for="div-5R1"><img id="img-5" src="../../resources/imagenes/icono-flehca-abajo.png" alt=""></label> 
                 
+=======
+            <div class="row">
+                <div id="div-1" class="col-2"><img src="../../resources/imagenes/portadas/c4785.jpg" alt=""></div>
+                <div id="div-2" class="col-2"><img src="../../resources/imagenes/portadas/c5532.jpg" alt=""></div>
+                <div id="div-3" class="col-2"><img src="../../resources/imagenes/portadas/c5055.jpg" alt=""></div>
+                <div id="div-4" class="col-2"><img src="../../resources/imagenes/portadas/c6026.jpg" alt=""></div>
+                <div id="div-5" class="col-2"><img src="../../resources/imagenes/portadas/c6320.jpg" alt=""></div>
+                <div id="div-6" class="col-2"><img src="../../resources/imagenes/portadas/c5055.jpg" alt=""></div>
+
+                <div id="contentPreview1" class="row">
+                    <div id="preview-1" class="col-12">
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div id="campo-1" class="col-4">
+                                <h2 id="titulo">Titulo</h2>
+                                <p id="info1">
+                                    2017 +16 1h 40min
+                                </p>
+                                <p id="sinopsis">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus perferendis ipsum sapiente quas laudantium corporis dolorum ducimus dolor consectetur error, recusandae, nam, architecto sunt libero ea? Nostrum esse autem a!
+                                </p>
+                                <p id="infoactores">
+                                    Actores
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta mollitia voluptatibus blanditiis.
+                                </p>
+                                <p>
+                                    Director: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+
+                            </div>
+                            <div id="iframe" class="col-6">
+                                <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="contentPreview2" class="row">
+                    <div id="preview2" class="col-12">
+
+                    </div>
+                </div>
+                <div id="contentPreview3" class="row">
+                    <div id="preview3" class="col-12">
+
+                    </div>
+                </div>
+                <div id="contentPreview4" class="row">
+                    <div id="preview4" class="col-12">
+
+                    </div>
+                </div>
+                <div id="contentPreview5" class="row">
+                    <div id="preview5" class="col-12">
+
+                    </div>
+                </div>
+                <div id="contentPreview6" class="row">
+                    <div id="preview" class="col-12">
+
+                    </div>
+>>>>>>> 206d1d5e32d51827bbf3e0190bf743682152e02f
                 </div>
                 <div id="div-6" class="col-2"><img src="../../resources/imagenes/portadas/c6320.jpg" alt="">
                 

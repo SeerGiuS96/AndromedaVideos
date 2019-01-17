@@ -77,7 +77,7 @@
             var videoControls = document.getElementById('video-controls');
 
             // Hide the default controls
-            video.controls = false;
+            video.controls = true;
 
             // Display the user defined video controls
             videoControls.style.display = 'block';
@@ -98,7 +98,8 @@
 
             stop.addEventListener('click', function(e) {
                 video.pause();
-                video.currentTime = 0;
+                video.
+                 = 0;
                 progress.value = 0;
             });
 

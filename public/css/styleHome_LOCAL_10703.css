@@ -14,7 +14,7 @@ div,header,nav,main,aside,footer,ul {
 }
 
 .containe {
-
+  
     min-width: 900px;
     background-repeat: no-repeat;
     background-image: linear-gradient(#9C33FF, black 70%);
@@ -24,7 +24,6 @@ header {
     min-width: 900px;
     background-color: black;
     height: 60px;
-    border-bottom: white 2px solid;
 
 
 }
@@ -34,7 +33,6 @@ header {
     height: 50px;
     width: 100px;
     float: left;
-    margin-top: 3px;
 }
 
 nav {
@@ -57,57 +55,24 @@ nav ul li {
 }
 
 nav ul li a {
-  text-decoration: none;
-  width: 100%;
-  background: none;
-  border: 2px solid  #6c3483 ;
-  color: white;
-  padding: 5px;
-  font-size: 18px;
-  cursor: pointer;
-  margin: 12px 0;
-  border-radius: 15px;
-  font-family: arial;
-  background-color: rgba(155,0,255,0.2);
+    text-decoration: none;
+
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid white;
 }
 
 #search {
-    /*background-color: gray;*/
-    width: 400px;
-    text-align: center;
     float: right;
-    margin-top: 10 auto;
-    height: 100%;
-
-}
-#search input{
-    width: 300px;
-    border: 2px solid  #6c3483 ;
-    background-color: rgba(155,0,255,0.2);
-    color: white;
-    padding: 6px;
-    border-radius: 15px;
-    text-align: center;
-    margin-top: 12px;
-}
-
-#search button{
-    padding: 10px;
-    border: black ;
-    background-color: black;
-    text-align: center;
-    background-image: url("../../resources/imagenes/search.png");
-}
-#search button>img{
-    width: 25px;
-    height: 25px; 
-
+    width: 200px;
+    margin-left: 3%;
+    margin-top: 20px;
 
 }
 
-/*ESTO DAS REGLAS SE ESTA PISANDO*/
-/*HE RESULTO LA COLACION CON UN PARCHE ; HAY QUE CAMBIARLO Y DEJAR DE TOCAR*/
-/*CADA UNO EL CODIGO QUE LE DA LA GANA*/
+
 #usuario {
     float: right;
     width: 90px;
@@ -117,18 +82,14 @@ nav ul li a {
     box-sizing: border-box;
     display: block;
 }
-div#usuario  {
-    width: 40px;
-    margin-right: 25px;
-}
-#usuario a img{
+
+#usuario a {
+
     text-decoration: none;
     color: white;
-    margin-top:  -13px;
-    margin-right:  0px;
+    margin: 5px 1px;
     padding: 1px;
-    width: 40px;
-    height: 40px; 
+
 }
 
 #usuario a img {
@@ -175,7 +136,7 @@ main {
     transition-duration: 0.3s;
     height: 100%;
     background-position: center;
-
+    
 }
 
 [id|="div"]:hover > img {
@@ -310,7 +271,7 @@ main {
 [id^="iframe"]{
     height: 350px;
     width: 100%;
-    margin: 0 auto;
+   margin: 0 auto;
     display: none;
 }
 
