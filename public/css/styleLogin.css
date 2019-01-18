@@ -88,6 +88,7 @@ body{
   cursor: pointer;
   margin: 12px 0;
 }
+
 .checkB {
   text-align: center;
 }
@@ -111,4 +112,9 @@ body{
 .campos {
     width: 250px;
     margin: auto;
+}
+
+a{
+  color:#6c3483;
+  text-decoration: none;
 }
